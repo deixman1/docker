@@ -1,3 +1,4 @@
+#meminfo memprof
 RUN curl -L -o /tmp/meminfo.tar.gz https://github.com/BitOne/php-meminfo/archive/master.tar.gz \
     && tar zxpf /tmp/meminfo.tar.gz -C /tmp \
     && rm -r /tmp/meminfo.tar.gz \
